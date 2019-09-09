@@ -21,6 +21,12 @@
     android:title="@string/about_settings"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- HorizonDroid logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="horizon_logo"
+        android:layout="@layout/horizon_logo"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
