@@ -29,6 +29,14 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+  
+    <!-- HorizonDroid Maintainer  -->
+    <Preference
+        android:key="horizon_maintainer"
+        android:title="@string/horizon_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.HorizonMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
@@ -71,13 +79,5 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
-
-    <!-- HorizonDroid Maintainer  -->
-    <Preference
-        android:key="horizon_maintainer"
-        android:title="@string/horizon_maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.HorizonMaintainerPreferenceController"/>
 
 </PreferenceScreen>
