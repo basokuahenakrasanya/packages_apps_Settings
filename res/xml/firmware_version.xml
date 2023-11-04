@@ -29,6 +29,14 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+
+    <!-- HorizonDroid Version  -->
+    <Preference
+        android:key="horizon_version"
+        android:title="@string/horizon_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.HorizonVersionPreferenceController"/>
   
     <!-- HorizonDroid Maintainer  -->
     <Preference

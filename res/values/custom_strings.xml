@@ -69,4 +69,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- HorizonDroid version preference -->
+    <string name="horizon_version">"HorizonDroid version"</string>
+    
 </resources>
