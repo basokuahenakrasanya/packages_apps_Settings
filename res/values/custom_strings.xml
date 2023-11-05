@@ -62,9 +62,6 @@
 
     <!-- HorizonDroid Maintainer -->
     <string name="horizon_maintainer">Device Maintainer</string>
-
-    <!-- HorizonDroid version preference -->
-    <string name="horizon_version">"HorizonDroid version"</string>
     
     <!-- Navbar options -->
     <string name="navbar_category">Navigation bar</string>
