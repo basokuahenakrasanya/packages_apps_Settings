@@ -102,7 +102,6 @@ android_library {
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
         "custom-preference",
-        "VendorSupport-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
